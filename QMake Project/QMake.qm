@@ -1,0 +1,12 @@
+#BUILDER = gcc
+
+filename = main.c
+include1 = test.h test.c
+flags = -O2 -o
+out = bin/main.exe
+
+lol:
+    $filename|
+    $include1| 
+    $flags|
+    $out|
